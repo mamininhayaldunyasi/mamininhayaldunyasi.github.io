@@ -2,7 +2,6 @@ h1 {
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
-
 }
 
 .mami {
@@ -11,21 +10,17 @@ h1 {
 }
 
 .parent-container {
-    display: grid;
-    justify-content: center;
-    /* Yatayda ortala */
+    display: flex;
+    justify-content: center; /* Yatayda ortala */
 }
 
 /* Butonun özellikleri */
-.hayaldunyasi {
-    width: 100px;
-    /* İstediğiniz genişlik */
-    height: 60px;
-    /* İstediğiniz yükseklik */
-}
+.hayaldunyasi,
 .hayaldunyasi1 {
     width: 100px;
     /* İstediğiniz genişlik */
     height: 60px;
     /* İstediğiniz yükseklik */
+    margin: 10px; /* Butonlar arasındaki boşluk */
 }
+
